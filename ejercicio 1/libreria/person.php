@@ -1,7 +1,7 @@
 <?php
 class person{
     private ?int $identification;
-    private ?string $name;
+    private ?string $names;
     private ?string $lastName;
     private ?string $birthday;
 
@@ -13,12 +13,12 @@ class person{
         $this->identification = $identification; 
     }
     
-    public function getName(){
-        return $this->name; 
+    public function getNames(){
+        return $this->names; 
     }
     
-    public function setName(string $name){
-        $this->name = $name;
+    public function setNames(string $names){
+        $this->names = $names;
     }
     
     public function getLastName(){

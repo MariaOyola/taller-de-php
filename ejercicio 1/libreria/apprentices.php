@@ -1,6 +1,6 @@
 <?php
-
-    class apprentices extends person{
+include_once("person.php");
+class Apprentices extends Person {
 
          private ?string $birthDay;
          private ?int $telephoneContact;
